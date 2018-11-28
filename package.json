@@ -1,0 +1,17 @@
+{
+  "name": "debugando",
+  "version": "1.0.0",
+  "description": "Debugando todo tipo de programacao",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Lucas <bruno-lucas@msn.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-connect-php": "^1.0.3",
+    "gulp-sass": "^4.0.2"
+  }
+}

@@ -13,7 +13,7 @@ gulp.task('connect-sync', ['sass'], () => {
         browserSync({
             proxy: '0.0.0.0:8000',
             notify: false, // Notificacao browserSync
-            open: false, // Abre o navegador assim que o servidor for iniciado
+            open: true, // Abre o navegador assim que o servidor for iniciado
             base: './' // Diretorio raiz do servidor
         })
     })

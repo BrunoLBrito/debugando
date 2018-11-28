@@ -1,16 +1,86 @@
-*
-    padding: 0
+// font-family: 'Roboto', sans-serif;
+// font-family: 'Open Sans', sans-serif;
+// font-family: 'Lato', sans-serif;
+// font-family: 'Oswald', sans-serif;
+
+// Variables
+$roboto: 'Roboto', sans-serif
+$open-sans: 'Open Sans', sans-serif
+$lato: 'Lato', sans-serif
+$oswald: 'Oswald', sans-serif
+
+$blueToPurple: -webkit-gradient(linear, left top, right top, color-stop(0%,#A02BFF), color-stop(100%,#00CEFF))
+
+$redHunt: #EB586F
+$grayHunt: #D8E9F0
+$blueHunt: #4AA0D5
+$blackHunt: #454553
+
+$gray: #dddddd
+$white: #ffffff
+$black: #444444
+
+// RESET //
+*, *:before, *:after
     margin: 0
+    padding: 0
     box-sizing: border-box
+    // font-family: 'Open Sans', sans-serif
+
+a
+    text-decoration: none
+ul
+    list-style: none
+
+button
+    cursor: pointer
+
+// BOOT //
+.font-zero
+    display: none
+.clear
+    clear: both
+
+.container
+    width: 100%
+    float: left
+
+.content
+    width: 92%
+    float: left
+    margin: 0 4%
+    padding: 20px 0
+
+// Layout site
 
 body
-    font-family: sans-serif
-    color: #000
-    height: 1500px;
+    height: 1500px
 
-h1
-    color: #00f
+.header
+    background-color: #000
+    position: fixed
+    top: 0
+    left: 0
+    z-index: 100
+
+    h1
+        font-family: $roboto
+        color: #f00
+        display: inline
+        font-weight: 600
+        text-transform: uppercase
+        letter-spacing: 3px
+
+        span
+            font-size: .7em
+            font-weight: 500
+            color: #69d86e
+
+// Main
+main
+    margin-top: 78px
+// Section banner
+.banner
     width: 100%
-    height: 200px
-    background-color: #444
-    text-align: center
+    height: 500px
+    background: $gray
